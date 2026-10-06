@@ -1,0 +1,32 @@
+{
+  "model_type": "RandomForestRegressor",
+  "features": [
+    "average_coding",
+    "average_design",
+    "average_communication",
+    "average_documentation",
+    "role_diversity",
+    "interest_similarity",
+    "collaboration_score",
+    "team_experience",
+    "hackathon_win_rate",
+    "project_completion_rate"
+  ],
+  "metrics": {
+    "rmse": 3.742,
+    "r2": 0.873
+  },
+  "feature_importances": {
+    "average_coding": 0.5543,
+    "average_design": 0.0743,
+    "average_communication": 0.1375,
+    "average_documentation": 0.0269,
+    "role_diversity": 0.1356,
+    "interest_similarity": 0.016,
+    "collaboration_score": 0.0118,
+    "team_experience": 0.0134,
+    "hackathon_win_rate": 0.0191,
+    "project_completion_rate": 0.011
+  },
+  "description": "Trained on 1500 synthetic historical college hackathon/project team records"
+}
